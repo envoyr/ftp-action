@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Upload ftp
-      uses: envoyr/ftp-action@releases/v1
+      uses: envoyr/ftp-action@releases/v3
       with:
         host: ${{ secrets.FTP_SERVER }}
         user: ${{ secrets.FTP_USERNAME }}
